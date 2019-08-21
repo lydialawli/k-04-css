@@ -1,10 +1,9 @@
 .wrap {
     display: grid;
-    grid-template-columns: 1fr 6fr 2fr;
-    background-color: rgb(163, 163, 228);
+    grid-template-columns: 3fr 3fr 3fr;
+    grid-column-gap: 20px;
 }
 
-.content {
-    background-color: rgb(211, 116, 116);
+.column {
+    background-color: aquamarine;
 }
-
