@@ -1,9 +1,64 @@
-.wrap {
+/* 040401 */
+/* .wrap {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.product {
+    background-color: aqua;
+} */
+
+/* 040402 */
+/* .wrap {
+    display: grid;
+    grid-template-columns: 25% 25%;
+}
+
+.product {
+    background-color: aqua;
+} */
+
+/* 040403 */
+/* .wrap {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+}
+
+.content {
+     background-color: aqua;
+} */
+
+/* 040404 */
+/* .wrap {
+    display: grid;
+    grid-template-columns: 1fr 6fr 2fr;
+}
+
+.content {
+     background-color: aqua;
+} */
+
+/* 040405 */
+/* .wrap {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     grid-column-gap: 20px;
 }
 
 .column {
-    background-color: aquamarine;
+    background-color: aqua;
+} */
+
+
+/* 040406 */
+.wrap {
+    display: grid;
+    grid-template-columns: 7fr 6fr 5fr 4fr 3fr 2fr 1fr;
+    grid-column-gap: 20px;
+    height:80px;
+}
+
+.box {
+    background-color: rgb(8, 8, 172);
+    color: white;
 }
