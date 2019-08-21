@@ -1,7 +1,11 @@
-/* 040402 */
+/* 040403 */
 .wrap {
     display: grid;
-    grid-template-columns: 25% 25%;
+    grid-template-columns: 1fr 4fr;
+    background-color: rgb(163, 163, 228);
 }
 
+.content {
+    background-color: rgb(211, 116, 116);
+}
 
