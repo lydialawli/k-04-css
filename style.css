@@ -1,0 +1,30 @@
+/*040201 */
+p {
+    color: red;
+}
+
+/*040202 */
+.title {
+    color: red;
+}
+
+/*040203 */
+h3.title {
+    color: red;
+}
+
+/*040204 */
+div h4 {
+    color: red;
+}
+
+
+/*040205 */
+#main {
+    color:reds;
+}
+
+/*040206 */
+div > span {
+    color:red;
+}

@@ -1,0 +1,7 @@
+/* 040402 */
+.wrap {
+    display: grid;
+    grid-template-columns: 25% 25%;
+}
+
+
