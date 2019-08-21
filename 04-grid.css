@@ -51,7 +51,7 @@
 
 
 /* 040406 */
-.wrap {
+/* .wrap {
     display: grid;
     grid-template-columns: 7fr 6fr 5fr 4fr 3fr 2fr 1fr;
     grid-column-gap: 20px;
@@ -61,4 +61,52 @@
 .box {
     background-color: rgb(8, 8, 172);
     color: white;
+} */
+
+/* 040407 */
+/* body {
+    margin:0;
+}
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: salmon;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    background-color: rgb(44, 38, 25);
+} */
+
+
+
+/* 040408 */
+body {
+    margin:0;
+}
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: salmon;
+    height: 100vh;
+    width: 100vw;
+  
+}
+
+.content {
+    background-color: rgb(44, 38, 25);
+    padding: 20px;
+}
+
+.wrap {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+    margin-bottom: 20px;s
+}
+
+.box {
+    background-color: white;
+    height: 140px;
 }
