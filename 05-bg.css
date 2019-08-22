@@ -1,6 +1,6 @@
 /* 040501 */
 
-body {
+/* body {
 	background-color: rgb(233, 228, 206);
 	margin: 0;
 }
@@ -10,5 +10,19 @@ body {
 	height: 100vh;
 	background-image: url("https://cdn.pixabay.com/photo/2016/11/14/22/18/beach-1824855__340.jpg");
 	background-repeat: no-repeat;
+} */
+
+/* 040502 */
+
+body {
+	background-color: rgb(233, 228, 206);
+	margin: 0;
+}
+
+.box {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("img/tropical.jpg");
+	background-size: 30%;
 }
 
