@@ -1,0 +1,13 @@
+/* 040601 */
+body{
+display: grid;
+justify-content: center;
+}
+
+div {
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    border-right: 1px solid blue;
+    border-left: 1px solid blue;
+    font-size: 70px;
+}
