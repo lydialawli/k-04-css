@@ -1,10 +1,11 @@
 /* 040501 */
 
-/* body {
+body {
 	background-color: rgb(233, 228, 206);
 	margin: 0;
 }
 
+/*
 .beach {
 	width: 100vw;
 	height: 100vh;
@@ -14,11 +15,6 @@
 
 /* 040502 */
 
-body {
-	background-color: rgb(233, 228, 206);
-	margin: 0;
-}
-
 .box {
 	width: 100vw;
 	height: 100vh;
@@ -26,3 +22,11 @@ body {
 	background-size: 30%;
 }
 
+/* 040503 */
+
+div {
+	background-color: red;
+	opacity: 0.5;
+	width: 100vw;
+	height: 100vh;
+}
