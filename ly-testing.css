@@ -2,6 +2,8 @@ body {
 	background-color: #FDB09F;
 	font-family: Geneva, sans-serif;
 	color: white;
+	display: grid;
+	justify-content: center;
 }
 
 h1 {
@@ -20,6 +22,8 @@ h1 {
 	grid-template-rows: 2fr 1fr;
 	grid-column-gap: 10px;
 	border-radius: 10px;
+	justify-content: center;
+	
 }
 
 div > button {
@@ -28,11 +32,10 @@ div > button {
 	font-size: 50px;
 	color: white;
 	font-family: 'Lucida Sans Unicode', sans-serif;
-	border: thick dotted red;
+	/* border: thick dotted red; */
 	background-color: lightsteelblue;
 	background-size: cover;
-	back
-	width: 40vw;
+	/* width: 40vw; */
 }
 
 .buttonWrapper {
@@ -42,7 +45,7 @@ div > button {
 	grid-template-columns: 50% 50%;
 }
 
-button {
+.box {
 	background-color:#ffffff;
 	margin: 10px;
 	font-family: Verdana, sans-serif;
@@ -72,30 +75,8 @@ button[type="submit"] {
 }
 
 .feather {
-	width: 3em;
-	height: 3em;
 	stroke: white;
 }
 
-.next {
-	display: grid;
-	width: 90vw;
-	background-color: transparent;
-	display: flex;
-	padding: 10px;
-	flex-direction: row;
-	justify-content: center;
-	align-items: center;
-}
 
-h3 {
-	font-size: 50px;
-}
 
-h3:hover{
-	color: gray;
-}
-
-.feather:hover{
-	stroke: gray;
-}

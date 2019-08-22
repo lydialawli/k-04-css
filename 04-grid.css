@@ -39,7 +39,7 @@
 } */
 
 /* 040405 */
-/* .wrap {
+/* body {
     display: grid;
     grid-template-columns: 3fr 3fr 3fr;
     grid-column-gap: 20px;
@@ -157,7 +157,7 @@ div {
     box-sizing: border-box;
 }
 
-.search{
+.search {
     background-color: blanchedalmond;
     height: 90%;
 }

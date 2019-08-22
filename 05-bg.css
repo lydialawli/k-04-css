@@ -1,0 +1,14 @@
+/* 040501 */
+
+body {
+	background-color: rgb(233, 228, 206);
+	margin: 0;
+}
+
+.beach {
+	width: 100vw;
+	height: 100vh;
+	background-image: url("https://cdn.pixabay.com/photo/2016/11/14/22/18/beach-1824855__340.jpg");
+	background-repeat: no-repeat;
+}
+
