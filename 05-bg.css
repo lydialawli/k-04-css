@@ -1,9 +1,9 @@
 /* 040501 */
 
-body {
+/* body {
 	background-color: rgb(233, 228, 206);
 	margin: 0;
-}
+} */
 
 /*
 .beach {
@@ -24,9 +24,58 @@ body {
 
 /* 040503 */
 
-div {
+/* div {
 	background-color: red;
 	opacity: 0.5;
 	width: 100vw;
 	height: 100vh;
+} */
+
+/* 040504 */
+body {
+	background-color: white;
+	margin: 0;
+	/* display: grid;
+	grid-template-columns: 3fr 3fr 3fr; */
+	position: relative;
+	/* grid-column-gap: 20px; */
+}
+
+div {
+	/* width: 40vw;
+	height: 40vh; */
+	background-image: url("img/forest.jpg");
+	/* background-size: 30%; */
+	background-repeat: no-repeat;
+}
+
+.a {
+	position:absolute;
+	height: 70vh;
+	width: 35vw;
+	left: 0px;
+	bottom: 0px; 
+	background-position: left bottom;
+	background-size: cover;
+
+}
+
+
+.b {
+	position: relative;
+	width: 12vw;
+	height: 100vh;
+	left: calc(50% - 130px);
+	background-position:center;
+	/* margin-left: auto;
+	margin-right: auto; */
+}
+
+.c {
+	position:absolute;
+	height: 20vh;
+	width: 40vw;
+	right: 0px;
+	bottom: 0px; 
+	background-position:right center;
 }
