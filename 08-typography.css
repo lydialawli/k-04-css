@@ -13,6 +13,39 @@ p {
 } */
 
 /* 040802 */
-body {
+/* body {
+    font-family: 'Lato', Arial, sans-serif;
+} */
+
+/* 040803 */
+div {
+    border:  1px solid black;
+    padding: 25px 50px 60px 50px;
+    box-sizing: content-box;
+    font-family: 'Open-Sans', sans-serif;
+    width: 580px;
+    height: 400px;
+
+}
+
+h1 {
+    font-size: 46px;
+    font-family: 'Roboto Slab', serif;
+}
+
+p {
+    font-size: 30px;
+}
+
+small {
+    color: gray;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+a {
+    font-size: 23px;
+    color: #ff6348;
+    font-weight: bold;
     font-family: 'Lato', Arial, sans-serif;
 }
