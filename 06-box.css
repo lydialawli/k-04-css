@@ -60,6 +60,31 @@ div {
 } */
 
 /* 040607 */
+/* body{
+  display: grid;
+  justify-content: center;
+  }
+
+.wrap {
+  width: 700px;
+  height: 700px;
+  background-color:#ff6348;
+  border-radius: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.rectangle {
+  width: 65%;
+  height: 85%;
+  background-color: white;
+  border-radius: 20px;
+  margin: auto;
+} */
+
+/* 040608 */
 body{
   display: grid;
   justify-content: center;
@@ -80,7 +105,7 @@ body{
 
 .rectangle {
   width: 65%;
-  height: 85%;
+  height: 65%;
   background-color: white;
   border-radius: 20px;
   margin: auto;
