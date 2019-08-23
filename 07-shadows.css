@@ -1,0 +1,26 @@
+body{
+    display: grid;
+    justify-content: center;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 40px;
+    padding-top: 20vh;
+}
+
+.child {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    box-shadow: 1px 1px 20px rgba(10, 7, 7, 0.2);
+}
+
+#roundedSquare {
+    border-radius: 20px;
+}
+
+#circle {
+    border-radius: 50%;
+}
