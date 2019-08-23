@@ -52,3 +52,8 @@ h4 {
     font-weight: 500;
     font-size: 19px;
 }
+
+.card:hover{
+    box-shadow: 2px 18px 20px rgba(10, 7, 7, 0.2);
+    cursor: pointer;
+}
