@@ -93,6 +93,15 @@ div {
     /* margin: auto; */
 }
 
+a {
+    color: white;
+    text-decoration-line: none;
+}
+
+a:active {
+    border: 0.5px solid white;
+}
+
 @media (max-width: 480px) {
     nav {
         display: block;
