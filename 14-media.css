@@ -1,0 +1,32 @@
+/* 041401 */
+
+.products {
+    display: grid;
+    /* background-color: aquamarine; */
+}
+
+@media (max-width: 400px) {
+    .products {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (min-width: 401px) and (max-width: 600px) {
+    .products {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 1000px) {
+    .products {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1001px) {
+    .products {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+
+/* 041402 */
