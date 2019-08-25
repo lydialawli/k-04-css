@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    justify-content: center;
+    padding-top: 30vh;
+}
+
+button {
+    background-color:#277ecf;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 70px;
+    width: 150px;
+}
+
+.rating {
+    border: 1px solid #dddddd;
+    padding: 50px;
+    color: blueviolet;
+}
+
+.check input {
+    opacity: 0;
+    cursor: pointer;
+    margin:0;
+    width: 0;
+    height: 0;
+  }
+
+.checkmark {
+    color: white;
+    font-size: 30px;
+    font-style: unset;
+    -webkit-text-stroke: 3px black;
+}
+  
+.check input:checked ~ .checkmark {
+    color: black;
+    ;
+}
